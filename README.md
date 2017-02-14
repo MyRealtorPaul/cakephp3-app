@@ -77,7 +77,7 @@ Uncomment `$this->Auth->allow();` from initialize function on `AppController`. T
         $this->Auth->allow();
     }
 
-Uncumment `return true;` from isAuthorized function on `AppController`. This allows you to access the Acl Manager plugin.
+Uncomment `return true;` from isAuthorized function on `AppController`. This allows you to access the Acl Manager plugin.
 
     public function isAuthorized($user) {
         // Only for ACL setup
